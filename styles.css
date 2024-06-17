@@ -1,0 +1,324 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;900&display=swap");
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+body {
+  position: absolute;
+  width: 100%;
+  height: 100%;
+  background: rgb(27, 27, 27);
+}
+body::-webkit-scrollbar {
+  box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  width: 7px;
+}
+body::-webkit-scrollbar-thumb {
+  background: rgba(255, 253, 253, 0.4);
+  border-radius: 5px;
+}
+body main {
+  position: relative;
+  display: flex;
+}
+body main ion-icon {
+  color: white;
+  width: 20px;
+  height: 20px;
+  transition: 0.3s;
+  padding: 0 15px;
+}
+body main ion-icon:hover {
+  transform: rotate(360deg);
+}
+body main .header {
+  position: fixed;
+  background: rgb(27, 27, 27);
+  width: 100%;
+  height: auto;
+  z-index: 10;
+  box-shadow: 2px 2px 2px white;
+}
+body main .header .nav_container {
+  padding: 0px 50px;
+  position: relative;
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+body main .header .nav_container .logo_nav {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  transition: 0.3s;
+}
+body main .header .nav_container .logo_nav img {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  height: 100px;
+  width: 100px;
+}
+body main .header .nav_container .nav_menu {
+  position: relative;
+}
+body main .header .nav_container .nav_menu .nav_list {
+  position: relative;
+  display: flex;
+}
+body main .header .nav_container .nav_menu .nav_list li {
+  transition: 0.3s;
+  list-style: none;
+}
+body main .card_container {
+  position: absolute;
+  top: 150px;
+  width: 100%;
+  display: flex;
+}
+body main .card_container .cards {
+  width: 100%;
+  list-style: none;
+  position: relative;
+  justify-content: center;
+  display: flex;
+  gap: 40px;
+  flex-wrap: wrap;
+}
+body main .card_container .cards .card {
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  transition: 0.3s;
+  border-radius: 10px;
+}
+body main .card_container .cards .card a {
+  text-decoration: none;
+  color: white;
+  position: relative;
+  width: 250px;
+  height: 390px;
+  background: black;
+  box-shadow: 0px 25px 45px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1px solid rgba(255, 255, 255, 0.2);
+  border-right: 1px solid rgba(255, 255, 255, 0.2);
+  border-radius: 8px;
+  z-index: 1;
+  -webkit-backdrop-filter: blur(25px);
+          backdrop-filter: blur(25px);
+  cursor: pointer;
+  transition: 0.3s;
+  color: white;
+  display: flex;
+  flex-direction: column;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+          user-select: none;
+  position: relative;
+  transition: 0.1s;
+  border-radius: 5px;
+}
+body main .card_container .cards .card a:hover {
+  box-shadow: 6px 6px 0px Solid rgba(255, 255, 255, 0.8);
+}
+body main .card_container .cards .card a .gif_container {
+  position: relative;
+  width: 100%;
+  height: 50%;
+  transition: all 0.3s ease;
+  box-shadow: 0px 2px 0px rgba(255, 255, 255, 0.5);
+}
+body main .card_container .cards .card a .gif_container img:first-child {
+  position: relative;
+  box-shadow: 0 60px 60px -60px rgba(0, 30, 255, 0.5);
+  -o-object-fit: cover;
+     object-fit: cover;
+  border-radius: 4px;
+  width: 100%;
+  height: 100%;
+  transition: 0.3s ease;
+}
+body main .card_container .cards .card a .gif_container img:last-child {
+  position: absolute;
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  margin: auto;
+  transform: translateY(25%);
+  transition: 0.3s ease;
+  opacity: 0;
+}
+body main .card_container .cards .card a .gif_container:hover {
+  transform: perspective(250px) rotateX(10deg) translateY(-5%) translateZ(0);
+}
+body main .card_container .cards .card a .gif_container:hover::before {
+  opacity: 1;
+}
+body main .card_container .cards .card a .gif_container:hover img:last-child {
+  opacity: 1;
+  transform: scale(1.1);
+}
+body main .card_container .cards .card a .gif_container:hover img:first-child {
+  opacity: 0.4;
+}
+body main .card_container .cards .card a .gif_container::before {
+  content: "";
+  position: absolute;
+  bottom: 0;
+  width: 100%;
+  height: 100%;
+  background-image: linear-gradient(to bottom, transparent 10%, rgba(0, 0, 0, 0.5) 50%, rgb(0, 0, 0) 95%);
+  opacity: 0;
+  transition: all 0.3s ease;
+}
+body main .card_container .cards .card a .infocard {
+  position: relative;
+  height: 35%;
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  justify-content: center;
+  padding: 10px;
+  font-weight: bold;
+}
+body main .card_container .cards .card a .infocard p {
+  display: flex;
+  align-items: center;
+}
+body main .card_container .cards .card a .infocard p ion-icon {
+  position: relative;
+  top: -3px;
+  display: flex;
+}
+body main .card_container .cards .card a .price {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  height: 15%;
+  box-shadow: 0px -2px 0px rgba(255, 255, 255, 0.5);
+}
+body main .card_container .cards .card a .price p {
+  position: relative;
+  width: 70px;
+  margin-left: 20px;
+  padding: 7px;
+  color: black;
+  background: rgb(221, 134, 202);
+  transition: 0.4s;
+  font-weight: bold;
+}
+body main .card_container .cards .card a .price p::before {
+  content: "";
+  background: rgb(0, 0, 0);
+  position: absolute;
+  width: 40px;
+  height: 40px;
+  transform: rotate(45deg);
+  right: -30px;
+  top: -3px;
+}
+body main .card_container .cards .card a .price p:hover {
+  transition: 0.4s;
+}
+body main .card_container .cards .card a .price p:hover::after {
+  position: absolute;
+  content: "$4.99";
+  width: 50px;
+  height: 100%;
+  display: flex;
+  align-items: center;
+  top: -20px;
+  right: -50px;
+  border-radius: 15%;
+  background: rgba(255, 255, 255, 0.7);
+  z-index: 2;
+  justify-content: center;
+  padding: 3px;
+}
+body main .card_container .cards .card:hover {
+  box-shadow: 6px 6px 0px rgba(255, 255, 255, 0.8);
+}
+
+@media screen and (max-width: 768px) {
+  body main ion-icon {
+    display: flex;
+    width: 18px;
+    height: 18px;
+    padding: 0px 5px;
+  }
+  body main .header {
+    height: auto;
+    padding: 0px 0px 30px 0px;
+    align-items: center;
+  }
+  body main .header .nav_container {
+    flex-direction: column;
+  }
+  body main .header .nav_container .logo_nav {
+    padding-bottom: 60px;
+    height: 50px;
+    width: 50px;
+    justify-content: center;
+    display: flex;
+  }
+  body main .header .nav_container .logo_nav img {
+    height: 70px;
+    width: 70px;
+  }
+  body main .header .nav_container .musicboton {
+    width: 50px;
+    height: 50px;
+    padding-top: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  body main .header .nav_container .musicboton ion-icon {
+    width: 30px;
+    height: 30px;
+  }
+  body main .card_container {
+    top: 200px;
+  }
+  body main .card_container .cards {
+    gap: 20px;
+  }
+  body main .card_container .cards .card a {
+    width: 200px;
+    height: 340px;
+  }
+  body main .card_container .cards .card a .price p {
+    font-size: 15px;
+    padding: 3px;
+  }
+  body main .card_container .cards .card a .price p::before {
+    width: 30px;
+    height: 30px;
+    transform: rotate(45deg);
+    right: -20px;
+    top: -3px;
+  }
+  body main .card_container .cards .card a .infocard {
+    font-size: 13px;
+    font-weight: bold;
+  }
+}
+@media screen and (max-width: 768px) {
+  body main .card_container .cards .card a {
+    width: 160px;
+    height: 300px;
+  }
+}/*# sourceMappingURL=styles.css.map */
