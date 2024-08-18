@@ -5,7 +5,7 @@ const funkoCard =[
         img2: "/img/yhwach2.png",
         nombre: "YHWACH QUINCY KING",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/nadjz",
@@ -13,7 +13,7 @@ const funkoCard =[
         img2: "/img/Gremmy2.png",
         nombre: "Gremmy Quincy V",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/xaroy",
@@ -21,7 +21,7 @@ const funkoCard =[
         img2: "/img/Ichigo-Quincy2.png",
         nombre: "Ichigo Quincy",
         franquicia: "BLEACH BRAVE SOULS FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/kyshg",
@@ -29,7 +29,7 @@ const funkoCard =[
         img2: "/img/Ichibei2.png",
         nombre: "Hyosube Ichibei",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/wejduz",
@@ -37,7 +37,7 @@ const funkoCard =[
         img2: "/img/Chainsaw2.png",
         nombre: "Denji Chainsaw",
         franquicia: "CHAINSAW-MAN",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/aukxiy",
@@ -45,7 +45,7 @@ const funkoCard =[
         img2: "/img/Ishida2.png",
         nombre: "Ishida Uryu",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/pqilck",
@@ -53,7 +53,7 @@ const funkoCard =[
         img2: "/img/Jugram2.png",
         nombre: "Jugram Quincy B",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/pcdkx",
@@ -61,7 +61,7 @@ const funkoCard =[
         img2: "/img/BazzB2.png",
         nombre: "Bazz B Quincy H",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/ucjij",
@@ -69,7 +69,7 @@ const funkoCard =[
         img2: "/img/Gerard2.png",
         nombre: "Gerard Quincy M",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/qppaav",
@@ -77,7 +77,7 @@ const funkoCard =[
         img2: "/img/Lille2.png",
         nombre: "Lille Barro Quincy X",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/tzrgwh",
@@ -85,7 +85,7 @@ const funkoCard =[
         img2: "/img/GokuF2.png",
         nombre: "Son Goku ",
         franquicia: "DRAGON BALL FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/qrznl",
@@ -93,7 +93,7 @@ const funkoCard =[
         img2: "/img/Aizen2.png",
         nombre: "Aizen Sosuke",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/asuyiu",
@@ -101,7 +101,7 @@ const funkoCard =[
         img2: "/img/Urahara2.png",
         nombre: "Urahara Kisuke",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/strhz",
@@ -109,7 +109,7 @@ const funkoCard =[
         img2: "/img/Vegeta-Chiken2.png",
         nombre: "Vegeta with the chick",
         franquicia: "DRAGON BALL FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/qwnuxe",
@@ -117,7 +117,7 @@ const funkoCard =[
         img2: "/img/UlquiorraK2.png",
         nombre: "Ulquiorra Hogyoku",
         franquicia: "BLEACH BRAVE SOULS FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/pjmpo",
@@ -125,7 +125,7 @@ const funkoCard =[
         img2: "/img/Mugetsu2.png",
         nombre: "Ichigo Mugetsu",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/ajrzkb",
@@ -133,7 +133,7 @@ const funkoCard =[
         img2: "/img/IchigoShikai2.png",
         nombre: "Ichigo Shikai",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/dzxjuq",
@@ -141,7 +141,7 @@ const funkoCard =[
         img2: "/img/HalibelR2.png",
         nombre: "Halibel Resurrection",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/kqulqt",
@@ -157,7 +157,7 @@ const funkoCard =[
         img2: "/img/IKKAKU2.png",
         nombre: "Ikkaku Bankai",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
     {
         link: "https://sapxblend.gumroad.com/l/owxtd",
@@ -165,7 +165,7 @@ const funkoCard =[
         img2: "/img/IZURU2.png",
         nombre: "Izuru Kira",
         franquicia: "BLEACH FUNKO POP",
-        precio: "8.99"
+        precio: "5.99 $"
     },
  ];
 
