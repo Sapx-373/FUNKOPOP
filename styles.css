@@ -235,7 +235,7 @@ body main .card_container .cards .card a .price p:hover {
 }
 body main .card_container .cards .card a .price p:hover::after {
   position: absolute;
-  content: "$4.99";
+  content: "$5.99";
   width: 50px;
   height: 100%;
   display: flex;
